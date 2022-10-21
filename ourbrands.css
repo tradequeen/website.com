@@ -1,0 +1,780 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.header{
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+ 
+}
+
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links1{
+  flex: 1;
+  text-align: right;
+}
+
+
+.house{
+  width: 30px;
+  position: absolute;
+  left: 85%;
+  top: 26%;
+  z-index: 4;
+  transition: 0.5s;
+  padding: 2px;
+  border: 0;
+}
+
+.house:hover{
+border: 1px solid gainsboro;
+padding: 2px;
+}
+
+.about{
+  width: 30px;
+  margin-right: 10px;
+  position: absolute;
+  padding: 2px;
+  border: 0;
+  left: 85%;
+  top: 32.8%;
+  z-index: 4;
+  transition: 0.5s;
+}
+
+.about:hover{
+  border: 1px solid gainsboro;
+  padding: 2px;
+}
+
+.brands{
+  width: 30px;
+  margin-right: 10px;
+  position: absolute;
+  left: 85%;
+  z-index: 4;
+  border: 0;
+  padding: 2px;
+  top: 39.3%;
+  transition: 0.5s;
+  
+}
+
+.brands:hover{
+  border: 1px solid gainsboro;
+  padding: 2px;
+}
+
+.products{
+  width: 30px;
+  margin-right: 10px;
+  position: absolute;
+  left: 85%;
+  padding: 2px;
+  border: 0;
+  z-index: 4;
+  top: 45.3%;
+  transition: 0.5s;
+ 
+}
+
+.products:hover{
+  border: 1px solid gainsboro;
+  padding: 2px;
+}
+  
+
+
+
+.contact{
+  width: 30px;
+  margin-right: 10px;
+  position: absolute;
+  left: 85%;
+  padding: 2px;
+  border: 0;
+  z-index: 4;
+  top: 51.5%;
+  transition: 0.5s;
+ 
+}
+
+.contact:hover{
+  border: 1px solid gainsboro;
+  padding: 2px;
+}
+
+
+.nav-links{
+  display: inline-flex;
+  position: absolute;
+  right: 140px;
+  top: 24.9%;
+  display: flex;
+
+}
+
+.nav-links ul li{
+  padding: 20px;
+  margin-left: 10px;
+  position: relative;
+ 
+
+
+}
+
+.nav-links ul li a{
+  color: mediumspringgreen;
+  text-decoration: none;
+  font-size: 18px;
+  background: transparent;
+  transition: 1s;
+
+}
+
+.nav-links ul li a:hover{
+  color: red;
+
+}
+
+.sign-out{
+  color: white;
+  border: 3px solid red;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: transparent;
+  position: absolute;
+  right: 185px;
+  top: 110px;
+  text-decoration: none;
+  font-size: 13px;
+  transition: 1s;
+}
+
+.sign-out:hover{
+  border: 3px solid red;
+  color: red;
+}
+
+nav img {
+  width: 120px;
+  position: absolute;
+  left: 180px;
+  top: 60px;
+  display: none
+}
+
+.tradebrand{
+  color: red;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  
+}
+
+.trade2{
+ background: black;
+ color: black;
+}
+
+
+
+
+
+.videodeck{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 20px;
+
+  z-index: -1;
+}
+
+@media (min-aspect-ration: 16/9){
+  .videodeck{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ration: 16/9){
+  .videodeck{
+    width: auto;
+    height: 100%;
+  }
+}
+
+
+.videodeck2{
+  position: absolute;
+  display: none;
+  left: 12%;
+  right: 0;
+  bottom: -230px;
+  transform: translate(50%);
+
+  
+  height: 100px;
+
+
+  z-index: 4;
+}
+
+@media (min-aspect-ration: 16/9){
+  .videodeck2{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ration: 16/9){
+  .videodeck2{
+    width: auto;
+    height: 100%;
+  }
+}
+
+
+
+
+
+.top-vid{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: -1%;
+  width: 29%;
+  height: 100vh;
+  z-index: 5;
+  display: none;
+
+}
+
+@media (min-aspect-ration: 16/9){
+  .top-vid{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ration: 16/9){
+  .top-vid{
+    width: auto;
+    height: 100%;
+  }
+}
+
+
+.top-vid1{
+  position: absolute;
+  top: 57%;
+  left: 0;
+  right: 0;
+  bottom: -10%;
+  width: 29%;
+  display: none;
+  z-index: 5;
+}
+
+@media (min-aspect-ration: 16/9){
+  .top-vid{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ration: 16/9){
+  .top-vid{
+    width: auto;
+    height: 100%;
+  }
+}
+
+
+
+
+
+
+/*---------------------------------course pahe---------------------*/
+
+.course{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+ 
+}
+
+.course-col img{
+width: 100%
+}
+
+
+
+/*-----------------------------------links*/
+
+.enrol{
+  position: absolute;
+  top: 42.5%;
+  left: 20px;
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  background: mediumspringgreen;
+  padding: 10px  222px;
+  transition: 1s;
+  display: none;
+
+}
+
+
+
+.enrol:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  
+}
+
+
+
+.enrol1{
+  position: absolute;
+  top: 62.5%;
+  right: 80px;
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  background: rgb(250, 0, 50);
+  padding: 10px 90px;
+  transition: 1s;
+
+}
+
+
+
+.enrol1:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  
+}
+
+/*--------------------------enroll end hover-*/
+
+
+
+
+
+.profiles{
+  position: absolute;
+  top: 48.7%;
+  left: 20px;
+  color: transparent;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.113);
+  padding: 10px  221px;
+  transition: 1s;
+ 
+
+}
+
+.profiles:hover{
+  background-color: rgba(255, 255, 255, 0.335);
+  color: transparent;
+}
+
+
+.profiles1{
+  position: absolute;
+  top: 68.7%;
+  right: 80px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.113);
+  padding: 10px 89px;
+  transition: 1s;
+ 
+
+}
+
+.profiles1:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+/*--------------------------profiles end hover-*/
+
+
+
+
+.location{
+  position: absolute;
+  top: 55%;
+  left: 20px;
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: mediumspringgreen;
+  padding: 10px 97px;
+  transition: 1s;
+}
+
+
+
+.location:hover{
+  background-color: white;
+  color: black;
+}
+
+
+.location1{
+  position: absolute;
+  top: 75%;
+  right: 80px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.113);
+  padding: 10px 83px;
+  transition: 1s;
+}
+
+
+
+.location1:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+/*--------------------------location end hover-*/
+
+
+
+.payments{
+  position: absolute;
+  top: 61.4%;
+  left: 20px;
+  color: transparent;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.113);
+  padding: 10px  224px;
+  transition: 1s;
+}
+
+
+
+.payments:hover{
+  background-color: rgba(255, 255, 255, 0.335);
+  color: black;
+}
+
+
+
+.payments1{
+  position: absolute;
+  top: 81.4%;
+  right: 80px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.113);
+  padding: 10px  92px;
+  transition: 1s;
+}
+
+
+
+.payments1:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+
+
+
+/*-------------------------payment end hover-*/
+
+
+.scomment{
+  position: absolute;
+  top: 67.8%;
+  left: 20px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  background-color:  rgba(255, 255, 255, 0.113);
+  padding: 10px  212px;
+  transition: 1s;
+  display: none;
+}
+
+
+.scomment:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+
+
+.scomment1{
+  position: absolute;
+  top: 87.8%;
+  right: 80px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  background-color:  rgba(255, 255, 255, 0.113);
+  padding: 10px  80px;
+  transition: 1s;
+}
+
+
+.scomment1:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+/*-------------------------agricultural instrument text-*/
+
+
+.location13{
+  position: absolute;
+  top: 38%;
+  right: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  text-decoration: none;
+  padding: 10px 70px;
+  transition: 1s;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.location15{
+  position: absolute;
+  top: 49%;
+  right: 20px;
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+  padding: 0 25px;
+  transition: 1s;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.air{
+color: mediumspringgreen;
+font-size: 50px;
+}
+
+.location16{
+  position: absolute;
+  top: 35%;
+  right: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  text-decoration: none;
+  padding: 10px 25px;
+
+  transition: 1s;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+.location14{
+  position: absolute;
+  top: 52%;
+  right: 80px;
+  color: white;
+  font-size: 100px;
+  text-decoration: none;
+  padding: 0 70px;
+  transition: 1s;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+}
+
+
+span{
+  color: mediumspringgreen;
+  font-size: 90px;
+  
+}
+
+
+
+/*--------------------------gree aircone-----------------------*/
+
+
+/*---------------------------------course pahe---------------------*/
+
+.aircones{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+ 
+}
+
+.aircones-col img{
+width: 100%
+}
+
+
+
+/*-----------------------------------links*/
+
+
+/*--------------------------enroll end hover-*/
+
+
+
+
+
+.profiles{
+  position: absolute;
+  top: 48.7%;
+  left: 20px;
+  color: transparent;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.113);
+  padding: 10px  219px;
+  transition: 1s;
+ 
+
+}
+
+.profiles:hover{
+  background-color: rgba(255, 255, 255, 0.335);
+  color: transparent;
+}
+
+
+
+/*--------------------------profiles end hover-*/
+
+
+
+
+
+/*--------------------------location end hover-*/
+
+
+
+.payments{
+  position: absolute;
+  top: 61.4%;
+  left: 20px;
+  color: transparent;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.113);
+  padding: 10px  224px;
+  transition: 1s;
+}
+
+
+
+.payments:hover{
+  background-color: rgba(255, 255, 255, 0.335);
+  color: transparent;
+}
+
+
+
+
+
+/*-------------------------payment end hover-*/
+
+.tradebrand11{
+  color: red;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  
+}
+
+.trade11{
+ background: black;
+ color: black;
+}
+
+
+
+
+
+
+/*-------------------------agricultural instrument text-*/
+
+
+
+
+
+span{
+  color: mediumspringgreen;
+  font-size: 90px;
+  
+}
+
+
+
+.location100{
+  position: absolute;
+  top: 55%;
+  left: 20px;
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: mediumspringgreen;
+  padding: 10px 147px;
+  transition: 1s;
+}
+
+
+
+.location100:hover{
+  background-color: white;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+

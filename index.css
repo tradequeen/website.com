@@ -1,0 +1,456 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  width: 100%;
+  height: 100vh;
+  background: url(sign\ in\ black.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+
+
+}
+
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img{
+  width: 120px;
+  z-index: 2;
+ 
+}
+
+.nav-links{
+  flex: 1;
+  text-align: right;
+
+}
+
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+
+
+
+.backvid{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+width: 100%;
+display: none;
+}
+
+@media(min-aspect-ratio: 16/9){
+  .backvid{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media(max-aspect-ratio: 16/9){
+  .backvid{
+    width: auto;
+    height: 100%;
+  }
+}
+
+
+
+
+
+/*----------------------------------------------------------after----------------------------------------------*/
+
+.nav-links ul li ::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background-color: red;
+  margin: auto;
+  display: block;
+  transition: 1s;
+}
+
+.nav-links ul li:hover ::after{
+  width: 100%;
+}
+
+
+.text-box{
+  width: 80%;
+  color: mediumspringgreen;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+ 
+
+}
+
+.text-box h1{
+  font-size: 72px;
+  color: deeppink;
+  transition: 1s;
+}
+
+.text-box:hover h1{
+  color: mediumspringgreen;
+}
+
+.text-box p{
+  font-size: 17px;
+  margin: 10px;
+  color: white;
+  margin-bottom: 30px;
+ 
+}
+
+.text-btn{
+  color: black;
+  background-color: mediumspringgreen;
+  border: 1px solid mediumspringgreen;
+  padding: 10px 30px;
+  text-decoration: none;
+ 
+  transition: 1s;
+
+}
+
+.text-btn:hover{
+  background-color: deeppink;
+  border: 1px solid deeppink;
+  color: white;
+}
+
+
+
+
+
+
+/*------------------------------------span----------------------------------*/
+
+.spa-home{
+  color: mediumspringgreen;
+  font-weight: 600;
+  font-style: bolder;
+}
+
+span{
+  color: white;
+  transition: 0.5s;
+}
+
+span:hover{
+  color: yellow;
+}
+
+
+.menu-white{
+  width: 40px;
+  position: relative;
+  top: 10px;
+}
+
+
+
+.close-lines{
+width: 40px;
+display: none;
+}
+
+
+@media(max-width: 800px){
+  .text-box h1{
+    font-size: 32px;
+  }
+  
+  .nav-links ul li{
+    display: block;
+    margin-top: 10px;
+  }
+
+  .nav-links ul{
+    padding: 30px;
+  }
+
+  .nav-links{
+    width: 200px;
+    height: 100vh;
+    background: black;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+
+  }
+
+
+
+  .text-box h1{
+    font-size: 42px;
+    color: deeppink;
+    position: absolute;
+    left: 100px;
+    top: -180px;
+    transition: 1s;
+  }
+  
+  .text-box:hover h1{
+    color: mediumspringgreen;
+  }
+  
+  .text-box p{
+    font-size: 18px;
+    position: absolute;
+    left: 160px;
+    top: -140px;
+    margin: 10px;
+    color: white;
+    margin-bottom: 30px;
+   
+  }
+  
+  .text-btn{
+    color: black;
+    background-color: mediumspringgreen;
+    border: 1px solid mediumspringgreen;
+    padding: 10px 30px;
+    text-decoration: none;
+    position: absolute;
+    top: -100px;
+    left: 200px;
+   
+    transition: 1s;
+  
+  }
+  
+  .text-btn:hover{
+    background-color: deeppink;
+    border: 1px solid deeppink;
+    color: white;
+  }
+  
+
+  
+  
+  .sigup-box{
+    width: 60%;
+    padding: 10px 40px;
+    margin: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    text-decoration: none;
+    border: 1px solid gainsboro;
+    margin-bottom: 50px;
+    background: mediumspringgreen;
+    color: white;
+    transition: 1s;
+  }
+  
+  .sigup-box:hover{
+    background: deeppink;
+  }
+  
+
+  .input-box{
+    width: 60%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid gainsboro;
+  
+  }
+
+  
+}
+
+
+
+.campus{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 4%;
+}
+
+
+/*-----------------------------aign in -------------------*/
+
+
+.main-container{
+  width: 100%;
+  max-height: 100vh;
+  position: relative;
+}
+
+
+.sign-in-form{
+width: 300px;
+height: 500px;
+box-shadow: 0 0 3px 0;
+padding: 20px;
+margin: 300px auto 0;
+text-align: center;
+z-index: 2;
+background: rgba(255, 255, 255, 0.103);
+position: absolute;
+top: 20%;
+right: 2.3%;
+transform: translate(-50%,-50%);
+border-radius: 5px;
+border: 1px solid rgba(255, 255, 255, 0.555);
+color: white;
+transition: 1s;
+}
+
+
+
+.sign-in-form:hover{
+  background: white;
+  color: black;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+
+.sign-in-form h1{
+color: deeppink;
+font-size: 40px;
+}
+
+.background-img{
+width: 100%;
+max-height: 100vh;
+position: relative;
+}
+
+.back-color{
+background: deeppink;
+width: 700px;
+height: 100vh;
+position: absolute;
+top: 0;
+left: 0;
+border-right: 2px solid black;
+
+}
+
+.input-box{
+  width: 97%;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid gainsboro;
+
+}
+
+.signin-box{
+  width: 80%;
+  padding: 10px 100px;
+  margin: 10px 0;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid gainsboro;
+  text-decoration: none;
+  background: deeppink;
+  color: white;
+  transition: 1s;
+ 
+}
+
+.signin-box:hover{
+  background: mediumspringgreen;
+}
+
+.text{
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.or{
+  margin-top: 20px;
+  position: relative;
+  top: 10px;
+  background: white;
+  width: 30px;
+  left: 45%;
+  z-index: 2;
+
+}
+hr{
+  margin-bottom: 30px;
+  width: 60%;
+  position: relative;
+  left: 19%;
+  z-index: -1;
+
+}
+
+
+
+.sigup-box{
+  width: 80%;
+  padding: 10px 100px;
+  margin: 10px 0;
+  border-radius: 20px;
+  outline: none;
+  text-decoration: none;
+  border: 1px solid gainsboro;
+  margin-bottom: 20px;
+  background: mediumspringgreen;
+  color: white;
+  transition: 1s;
+}
+
+.sigup-box:hover{
+  background: deeppink;
+}
+
+.para{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+
+.sig{
+  margin-top: 20px;
+  color: deeppink;
+  text-decoration: none;
+
+}
+
+.spa-home{
+  color: mediumspringgreen;
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: 3px solid mediumspringgreen;
+  position: relative;
+
+}
