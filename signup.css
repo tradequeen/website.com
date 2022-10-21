@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container{
+  max-height: 70%;
+  height: 100vh;
+background: transparent;
+background-position: top;
+background-size: cover;
+position: relative;
+}
+
+
+.signup-form{
+width: 400px;
+height: 450px;
+position: absolute;
+top: 50%;
+left: 57%;
+transform: translate(-50%,-50%);
+text-align: center;
+text-decoration: none;
+box-shadow: 0 0 3px 0;
+padding: 50px;
+margin: auto;
+background: white;
+
+
+}
+
+.see-through{
+width: 300px;
+height: 450px;
+position: absolute;
+top: 50%;
+left: 38.7%;
+transform: translate(-50%,-50%);
+background: rgba(255, 255, 255, 0.411);
+margin: auto;
+text-align: center;
+text-decoration: none;
+box-shadow: 0 0 3px 0;
+padding: 50px;
+
+}
+
+
+.signup-form h1{
+font-size: 40px;
+color: mediumspringgreen;
+
+}
+
+
+.input-box{
+  width: 80%;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 10px;
+ 
+  border-bottom: 1px solid rgb(197, 197, 197);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+ 
+}
+
+.input-box :last-child{
+  margin-bottom: 20px;
+}
+
+.signup{
+  width: 50%;
+  display: flex;
+  position: relative;
+  left: 25%;
+  text-align: center;
+  background-color: cornflowerblue;
+  border-radius: 20px;
+  padding: 10px 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 12px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: aliceblue;
+  transition: 1s;
+  
+}
+
+.signup:hover{
+  background-color: deeppink;
+}
+
+.sign-in1{
+font-size: 100px;
+margin-top: 20px;
+margin: auto;
+
+text-align: center;
+}
+
+
+.text-uni{
+color: white;
+}
