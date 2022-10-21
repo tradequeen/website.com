@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  position: relative;
+}
+
+
+
+.lightbox{
+width: 735px;
+height: 890px;
+background: aliceblue;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+align-items: center;
+z-index: 3;
+opacity: 0.6;
+
+
+}
+
+.viewport{
+  width: 735px;
+  height: 890px;
+  position: absolute;
+  top: 50.3%;
+  left: 50.1%;
+  transform: translate(-50%,-50%);
+  align-items: center;
+  z-index: 4;
+}
+
+.pic2{
+  width: 731px;
+  height: 886px;
+  cursor: pointer;
+}
+
+.banner{
+  width: 1035px;
+  height: 100vh;
+  position: absolute;
+  top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ align-items: center;
+ opacity: 0.1;
+
+
+}
+
+.next{
+  position: absolute;
+  top: 50%;
+  left: 73%;
+  transform: translate(-50%,-50%);
+  align-items: center;
+  color: white;
+
+}
+
+.arro1{
+  width: 50px;
+  opacity: 0.2;
+  transition: 1s;
+  cursor: pointer;
+}
+
+
+.arro1:hover{
+  opacity: 1;
+}
+
+
+/*-----------------------------------------arrows-------------*/
+
+
+.back{
+  position: absolute;
+  top: 50%;
+  left: 27%;
+  transform: translate(-50%,-50%);
+  align-items: center;
+  color: white;
+
+}
+
+.arro2{
+  width: 50px;
+  opacity: 0.2;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.arro2:hover{
+  opacity: 1;
+}
+
+
+.eco-rating{
+  color: mediumspringgreen;
+  position: absolute;
+  top: 45.3%;
+  left: 5%;
+  text-align: center;
+
+}
+
+.eco-rate{
+  font-size: 16px;
+  margin-top: 10px;
+  color: white;
+
+}
