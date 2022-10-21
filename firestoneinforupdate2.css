@@ -1,0 +1,1287 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.header{
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+ 
+
+  
+
+ 
+}
+
+nav{
+  display: flex;
+  padding: 2% 6%;
+  align-items: center;
+  justify-self: auto;
+  background-color: rgb(249, 248, 248);
+  border-bottom: 1px solid black;
+}
+
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+ 
+
+
+  
+}
+
+.nav-links ul li a{
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  text-decoration: none;
+ 
+}
+
+
+.nav-links ul li ::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: red;
+  margin: auto;
+  display: block;
+  transition: 1s;
+  
+
+}
+
+.nav-links ul li:hover ::after{
+  width: 100%;
+ 
+}
+
+.image img{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+  z-index: -1;
+
+ 
+}
+
+.yoko{
+  width: 110px;
+}
+
+.videoback1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -4;
+}
+
+@media (min-aspect-ration: 16/9){
+  .videoback1{
+    width: 100%;
+    height: auto;
+  
+  }
+}
+
+@media (max-aspect-ration: 16/9){
+  .videoback1{
+    width: auto;
+    height: 100%;
+  
+  }
+}
+
+
+/*------------------------------------------enrol design-----------------*/
+
+.white-back{
+  position: absolute;
+  width: 554px;
+  height: 278px;
+  background-color: rgb(253, 253, 253);
+  top: 55.2%;
+  left: 27.6%;
+  padding: 40px;
+  padding-top: 40px;
+  padding-left: 10px;
+  transition: 1s;
+  z-index: 2;
+
+}
+
+
+.green-background{
+  position: absolute;
+  width: 917px;
+  height: 403px;
+  background-color: rgb(207, 13, 255);
+  top: 18.4%;
+  left: 26.3%;
+  z-index: 1;
+  box-shadow: 0 0 10px 0;
+  display: none;
+  
+}
+
+.gray-background{
+  position: absolute;
+  width: 917px;
+  height: 270px;
+  background-color: rgb(184, 183, 183);
+  top: 59.4%;
+  left: 26.3%;
+  z-index: 1;
+  transition: 1s;
+  cursor: pointer;
+}
+
+
+  .comp{
+    font-size: 20px;
+    color: black;
+    background-color: rgb(221, 221, 221);
+    padding: 5px 0;
+    padding-left: 10px;
+    display: flex;
+    margin-bottom: 8px;
+    transition: 1s;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  
+  .comp:hover{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(26, 17, 17);
+    
+  }
+  sup{
+    font-size: 10px;
+  }
+
+  
+
+  .gata{
+    font-size: 20px;
+    color: black;
+    background-color: rgb(221, 221, 221);
+    padding: 5px 0;
+    padding-left: 10px;
+    display: flex;
+    margin-bottom: 8px;
+    transition: 1s; 
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .gata:hover{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(26, 17, 17);
+    
+  }
+
+
+  
+
+  
+
+
+
+
+.black-back{
+  position: absolute;
+  width: 275px;
+  height: 308px;
+  background-color: black;
+  top: 55.2%;
+  left: 56.8%;
+  z-index: 2;
+  
+}
+
+.white-line{
+  position: absolute;
+  width: 250px;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  top: 61.3%;
+  left: 57.4%;
+  z-index: 3;
+}
+
+
+.JAN-TOP{
+  position: absolute;
+  color: mediumspringgreen;
+  top: 62.7%;
+  left: 57.4%;
+  z-index: 2;
+  cursor: pointer;
+  transition: 1s;
+ 
+}
+
+.JAN-TOP:hover{
+  color: deeppink;
+}
+
+
+.JAN-TOP1{
+  position: absolute;
+  color: deeppink;
+  top: 56.7%;
+  left: 57.4%;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  z-index: 2;
+  cursor: pointer;
+  transition: 1s;
+  
+}
+
+
+.JAN-TOP1:hover{
+  color: white;
+}
+
+
+/*--------------1--------------------*/
+
+.one-1{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 65.7%;
+  left: 58.7%;
+  font-size: 14px;
+  z-index: 2;
+  
+}
+
+
+.one-2{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 65.7%;
+  left: 60.3%;
+  font-size: 14px;
+  z-index: 2;
+  
+}
+
+.one-3{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 65.7%;
+  left: 61.9%;
+  font-size: 14px;
+  z-index: 2;
+  
+}
+
+.one-4{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 65.7%;
+  left: 63.5%;
+  font-size: 14px;
+  z-index: 2;
+  
+}
+
+.one-5{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 65.7%;
+  left: 65.1%;
+  font-size: 14px;
+  z-index: 2;
+  
+}
+
+.one-6{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 65.7%;
+  left: 66.7%;
+  font-size: 14px;
+  z-index: 2;
+  
+}
+
+.one-7{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 65.7%;
+  left: 68.3%;
+  font-size: 14px;
+  z-index: 2;
+  
+}
+
+/*---------------------------numbers-----------*/
+
+.one-1-28{
+    color: white;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 68.9%;
+    left: 58.9%;
+    font-size: 14px;
+    z-index: 2;
+
+    opacity: 0.4;
+}
+
+.one-2-29{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 68.9%;
+  left:  60.5%;
+  font-size: 14px;
+  z-index: 2;
+  opacity: 0.4;
+ 
+}
+
+
+.one-3-30{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 68.9%;
+  left:  62.1%;
+  font-size: 14px;
+  z-index: 2;
+  opacity: 0.4;
+ 
+}
+
+.one-4-31{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 68.9%;
+  left: 63.7%;
+  font-size: 14px;
+  z-index: 2;
+
+  opacity: 0.4;
+}
+
+
+
+.one-5-one{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 68.7%;
+  left: 65.2%;
+  font-size: 14px;
+  z-index: 2;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: 1s;
+  opacity: 0.4;
+}
+
+.one-5-one:hover{
+  
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+.one-6-two{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 68.7%;
+  left: 67%;
+  font-size: 14px;
+  z-index: 2;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: 1s;
+  opacity: 0.4;
+ 
+}
+
+.one-6-two:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+.one-7-three{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 68.7%;
+  left: 68.6%;
+  font-size: 14px;
+  z-index: 2;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: 1s;
+  
+}
+
+
+
+.one-7-three:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+/*---------------------------nunber 200000-------------*/
+
+.one-1-four{
+    color: white;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 71.7%;
+    left: 58.9%;
+    font-size: 14px;
+    z-index: 2;
+    border: 1px solid transparent;
+    cursor: pointer;
+    padding: 0 4px;
+    transition: 1s;
+
+}
+
+
+.one-1-four:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.one-2-five{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 71.7%;
+  left:  60.5%;
+  font-size: 14px;
+  z-index: 2;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: 1s;
+}
+
+.one-2-five:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.one-3-six{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 71.7%;
+  left:  62.1%;
+  font-size: 14px;
+  z-index: 2;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: 1s;
+}
+
+
+.one-3-six:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.one-4-seven{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 71.7%;
+  left: 63.7%;
+  font-size: 14px;
+  z-index: 2;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: 1s;
+}
+
+.one-4-seven:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+.one-5-eight{
+
+color: white;
+position: absolute;
+color: rgb(255, 255, 255);
+top: 71.7%;
+left: 65.2%;
+font-size: 14px;
+z-index: 2;
+border: 1px solid transparent;
+cursor: pointer;
+padding: 0 4px;
+transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.one-5-eight:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+.one-6-nine{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 71.7%;
+  left: 67%;
+  font-size: 14px;
+  z-index: 2;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: 1s;
+}
+
+
+.one-6-nine:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+.one-7-ten{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 71.7%;
+  left: 68.4%;
+  font-size: 14px;
+  z-index: 2;
+  border: transparent;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: 1s;
+}
+
+
+.one-7-ten:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+/*---------------------------nunber 200002-------------*/
+
+.one-1-four1{
+    color: white;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 74.7%;
+    left: 58.8%;
+    font-size: 14px;
+    z-index: 2;
+    border: 1px solid transparent;
+    cursor: pointer;
+    padding: 0 4px;
+    transition: 1s;
+}
+
+
+
+
+.one-1-four1:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+.one-2-five1{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 74.7%;
+  left:  60.3%;
+  font-size: 14px;
+  z-index: 2;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: 1s;
+}
+
+
+.one-2-five1:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.one-3-six1{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 74.7%;
+  left:  61.9%;
+  font-size: 14px;
+  z-index: 2;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: 1s;
+}
+
+
+
+.one-3-six1:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+.one-4-seven1{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 74.7%;
+  left: 63.5%;
+  font-size: 14px;
+  z-index: 2;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: 1s;
+}
+
+
+.one-4-seven1:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+.one-5-eight1{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 74.7%;
+  left: 65.1%;
+  font-size: 14px;
+  z-index: 2;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: 1s;
+}
+
+
+.one-5-eight1:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+.one-6-nine1{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 74.7%;
+  left: 66.8%;
+  font-size: 14px;
+  z-index: 2;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: 1s;
+}
+
+
+.one-6-nine1:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+.one-7-ten1{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 74.7%;
+  left: 68.4%;
+  font-size: 14px;
+  z-index: 2;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: 1s;
+}
+
+.one-7-ten1:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+
+/*---------------------------nunber 200003-------------*/
+
+.one-1-four2{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 77.7%;
+  left: 58.8%;
+  font-size: 14px;
+  z-index: 2;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: 1s;
+
+}
+
+
+
+
+.one-1-four2:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+.one-2-five2{
+color: white;
+position: absolute;
+color: rgb(255, 255, 255);
+top: 77.7%;
+left:  60.3%;
+font-size: 14px;
+z-index: 2;
+border: 1px solid transparent;
+cursor: pointer;
+padding: 0 4px;
+transition: 1s;
+}
+
+
+.one-2-five2:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+.one-3-six2{
+color: white;
+position: absolute;
+color: rgb(255, 255, 255);
+top: 77.7%;
+left:  61.9%;
+font-size: 14px;
+z-index: 2;
+border: 1px solid transparent;
+cursor: pointer;
+padding: 0 4px;
+transition: 1s;
+}
+
+
+
+.one-3-six2:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.one-4-seven2{
+color: white;
+position: absolute;
+color: rgb(255, 255, 255);
+top: 77.7%;
+left: 63.5%;
+font-size: 14px;
+z-index: 2;
+border: 1px solid transparent;
+cursor: pointer;
+padding: 0 4px;
+transition: 1s;
+}
+
+
+.one-4-seven2:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+
+.one-5-eight2{
+color: white;
+position: absolute;
+color: rgb(255, 255, 255);
+top: 77.7%;
+left: 65.1%;
+font-size: 14px;
+z-index: 2;
+border: 1px solid transparent;
+cursor: pointer;
+padding: 0 4px;
+transition: 1s;
+}
+
+
+
+.one-5-eight2:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+
+.one-6-nine2{
+color: white;
+position: absolute;
+color: rgb(255, 255, 255);
+top: 77.7%;
+left: 66.8%;
+font-size: 14px;
+z-index: 2;
+border: 1px solid transparent;
+cursor: pointer;
+padding: 0 4px;
+transition: 1s;
+}
+
+
+
+.one-6-nine2:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+.one-7-ten2{
+color: white;
+position: absolute;
+color: rgb(255, 255, 255);
+top: 77.7%;
+left: 68.4%;
+font-size: 14px;
+z-index: 2;
+border: 1px solid transparent;
+cursor: pointer;
+padding: 0 4px;
+transition: 1s;
+}
+
+
+.one-7-ten2:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+/*---------------------------nunber 200004-------------*/
+
+.one-1-four3{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 80.7%;
+  left: 58.8%;
+  font-size: 14px;
+  z-index: 2;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: 1s;
+
+}
+
+.one-1-four3:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+.one-1-four4{
+  color: white;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 83.7%;
+  left: 58.8%;
+  font-size: 14px;
+  z-index: 2;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: 1s;
+
+}
+
+.one-1-four4:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+
+.one-2-five3{
+color: white;
+position: absolute;
+color: rgb(255, 255, 255);
+top: 80.7%;
+left:  60.3%;
+font-size: 14px;
+z-index: 2;
+border: 1px solid transparent;
+cursor: pointer;
+padding: 0 4px;
+transition: 1s;
+}
+
+
+
+
+.one-2-five3:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+.one-2-five10{
+  color: white;
+position: absolute;
+color: rgb(255, 255, 255);
+top: 83.7%;
+left:  60.3%;
+font-size: 14px;
+z-index: 2;
+border: 1px solid yellow;
+cursor: pointer;
+padding: 0 4px;
+transition: 1s;
+}
+
+.one-2-five10:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.one-3-six3{
+color: white;
+position: absolute;
+color: rgb(255, 255, 255);
+top: 80.7%;
+left:  61.9%;
+font-size: 14px;
+z-index: 2;
+border: 1px solid transparent;
+cursor: pointer;
+padding: 0 4px;
+transition: 1s;
+}
+
+
+.one-3-six3:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+.one-4-seven3{
+color: white;
+position: absolute;
+color: rgb(255, 255, 255);
+top: 80.7%;
+left: 63.5%;
+font-size: 14px;
+z-index: 2;
+border: 1px solid transparent;
+cursor: pointer;
+padding: 0 4px;
+transition: 1s;
+}
+
+.one-4-seven3:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.one-5-eight3{
+color: white;
+position: absolute;
+color: rgb(255, 255, 255);
+top: 80.7%;
+left: 65.1%;
+font-size: 14px;
+z-index: 2;
+border: 1px solid transparent;
+cursor: pointer;
+padding: 0 4px;
+transition: 1s;
+}
+
+
+
+.one-5-eight3:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+
+.one-6-nine3{
+color: white;
+position: absolute;
+color: rgb(255, 255, 255);
+top: 80.7%;
+left: 66.8%;
+font-size: 14px;
+z-index: 2;
+border: 1px solid transparent;
+cursor: pointer;
+padding: 0 4px;
+transition: 1s;
+}
+
+
+
+.one-6-nine3:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.one-7-ten3{
+color: white;
+position: absolute;
+color: rgb(255, 255, 255);
+top: 80.7%;
+left: 68.4%;
+font-size: 14px;
+z-index: 2;
+border: transparent;
+cursor: pointer;
+padding: 0 4px;
+transition: 1s;
+}
+
+
+.one-7-ten3:hover{
+  border: 1px solid mediumspringgreen;
+  cursor: pointer;
+}
+
+/*-----------------------------------infro-content-------------*/
+
+.infor-content{
+  margin: auto;
+  text-align: center;
+  top: 28%;
+  left: 31%;
+  transform: translate(-50%);
+  position: absolute;
+
+
+
+  
+}
+
+
+.bridge{
+  margin-bottom: 10px;
+  color: white;
+  font-size: 25px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.bridge1{
+  color: black;
+  font-size: 18px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.gray-background:hover{
+  background-color:  rgb(123, 121, 121);
+ 
+}
+
+.arrow22{
+  width: 30px;
+  left: -50px;
+  position: absolute;
+  top: 66%;
+  opacity: 0.4;
+
+}
+
+.arrow23{
+  width: 30px;
+  position: absolute;
+  right: -50px;
+  top: 66%;
+  opacity: 0.4;
+}
+
+
+
+
+/*------------------------------hover arroes----------*/
+
+.arrow22:hover{
+opacity: 1;
+}
+
+.arrow23:hover{
+  opacity: 1;
+}
+
+
+
+
+
+
+
