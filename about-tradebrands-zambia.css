@@ -1,0 +1,302 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  width: 100%;
+  height: 100vh;
+  background-image: url(about.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  transition: 2s;
+}
+
+
+nav:hover{
+  background-color: rgb(0, 0, 0);
+  
+}
+
+
+nav:hover ul li a{
+  color: white;
+  
+}
+
+
+nav:hover .sign-out{
+  color: rgb(1, 228, 141);
+ 
+  
+}
+
+nav img{
+  width: 120px;
+}
+
+.trade{
+font-size: 30px;
+color: crimson;
+
+text-decoration: none;
+}
+
+
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+  
+}
+
+.nav-links ul li a{
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  transition: 1s;
+  
+}
+
+
+
+.nav-links ul li ::after{
+  content: '';
+  width: 0%;
+  height: 5px;
+  background: red;
+  margin: auto;
+  display: block;
+  transition: 1s;
+}
+
+.nav-links ul li:hover ::after{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.head-container{
+  width: 500px;
+  margin: 10%;
+  background-color: rgba(0, 0, 0, 0.541);
+  position: absolute;
+  border-right: 20px solid white;
+  border-top: 20px solid white;
+  border-left: 20px solid white;
+  top: 5%;
+  left: 56%;
+  overflow: hidden;
+  overflow-x: scroll;
+  
+}
+
+.head-container:hover{
+background-color: rgb(0, 0, 0);
+  
+ 
+}
+
+.slider-container{
+  display: inline-flex;
+  
+}
+
+.text-content-container-col{
+  width: 400px;
+  height: 400px;
+  color: white;
+  padding: 40px;
+
+
+}
+
+
+
+
+span{
+  color: deeppink;
+  margin-bottom: 10px;
+}
+
+.textn{
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.brands{
+  color: mediumspringgreen;
+}
+
+
+.sign-out{
+  text-decoration: none;
+  padding: 5px 12px;
+  border: 4px solid mediumspringgreen;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 12px;
+  color: black;
+  transition: 1s;
+}
+
+
+
+.sign-out:hover{
+  border: 4px solid deeppink;
+  color: deeppink;
+  font-size: 18px;
+}
+
+
+.close-x{
+  width: 50px;
+  display: none;
+}
+
+.menu-lines{
+width: 50px;
+position: absolute;
+top: 25px;
+right: 45px;
+display: none;
+
+}
+
+/*---------------------------------------media quarries------------------*/
+
+
+@media(max-width: 800px){
+
+  .trade{
+    font-size: 18px;
+   
+  }
+  
+.nav-links{
+  display: block;
+  background: black;
+  position: absolute;
+  top: 0;
+  right: -200px;
+  text-align: left;
+  height: 100vh;
+  width: 200px;
+  transition: 1s;
+  z-index: 5;
+  cursor: pointer;
+}
+
+  .nav-links ul li{
+    font-size: 13px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+
+  .nav-links ul li a{
+    color: white;
+  }
+
+
+  .sign-out{
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-size: 8px;
+  color: mediumspringgreen;
+
+  cursor: pointer;
+ 
+  
+  }
+
+  .nav-links ul{
+    padding: 30px;
+  }
+
+  .header{
+    width: 100%;
+    min-height: 100vh;
+    
+  }
+
+  .nav{
+    background: white;
+    cursor: pointer;
+
+  }
+
+  nav:hover{
+    background-color: none;
+    
+  }
+  
+
+  .head-container{
+    width: 300px;
+  margin: 10%;
+  background-color: rgba(0, 0, 0, 0.541);
+  position: absolute;
+  border-right: 20px solid white;
+  border-top: 20px solid white;
+  border-left: 20px solid white;
+  top: 5%;
+  left: 16%;
+  overflow: hidden;
+  overflow-x: scroll;
+  cursor: pointer;
+  }
+
+
+
+  .close-x{
+    width: 50px;
+    display: block;
+    padding: 20px;
+    cursor: pointer;
+  
+    
+  }
+
+  .menu-lines{
+    display: block;
+    position: absolute;
+    top: 0.1%;
+    right: 97%;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+   
+  }
+
+  
+  .nav-links ul li:hover ::after{
+    width: 0%;
+  }
+  
+  
+
+}

@@ -1,0 +1,1178 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  width: 100%;
+  height: 100vh;
+  background: transparent;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+
+.gallery-open{
+ width: 20px;
+ height: 20px;
+}
+
+.house{
+  width: 50px;
+  position: absolute;
+  padding: 10px;
+  left: 170px;
+  top: 350px;
+  transition: 0.5s;
+  border: 1px solid gray;
+  background: transparent;
+}
+
+
+
+.sub-home{
+  display: none;
+}
+
+.homi{
+  width: 100px;
+  position: absolute;
+  padding: 1px;
+  left: 230px;
+  top: 357px;
+  color: white;
+  padding: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.active, .homi:hover{
+  color:  rgb(81, 81, 81);
+  background:  rgba(0, 255, 191, 0.26);
+}
+
+.house:hover{
+  border: 1px solid rgb(99, 99, 99);
+}
+
+.home-nav ul li:hover .sub-home{
+  display: block;
+}
+
+
+.active{
+  background: rgba(81, 81, 81, 0.212);
+}
+
+
+.click{
+position: absolute;
+width: 220px;
+height: 275px;
+top: 358px;
+left: 460px;
+color: white;
+z-index: 5;
+transition: 0.5s;
+cursor: pointer;
+}
+
+.click:hover{
+  color: mediumspringgreen;
+}
+
+
+
+.pic1{
+position: absolute;
+width: 220px;
+height: 275px;
+top: 238px;
+left: 395px;
+transition: 0.5s;
+cursor: pointer;
+}
+
+
+.pic1:hover{
+  
+  width: 240px;
+  height: 295px;
+  top: 228px;
+  left: 385px;
+  border: 6px solid rgb(231, 231, 231);
+  border-radius: 10px;
+ 
+  }
+  
+
+
+/*---------------------------------pic2---------------------*/
+
+
+.pic2{
+  position: absolute;
+  width: 220px;
+  height: 275px;
+  top: 238px;
+  left: 684px;
+  transition: 0.5;
+  cursor: pointer;
+}
+
+.pic2:hover{
+  position: absolute;
+  width: 240px;
+  height: 295px;
+  top: 228px;
+  left: 674px; 
+  border: 6px solid rgb(231, 231, 231);
+  border-radius: 10px;
+}
+
+/*---------------------------------pic2---------------------*/
+
+.pic3{
+  position: absolute;
+  width: 220px;
+  height: 275px;
+  top: 237px;
+  left: 980px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.pic3:hover{
+width: 240px;
+height: 295px;
+top: 227px;
+left: 970px;
+border: 6px solid rgb(231, 231, 231);
+border-radius: 10px;
+}
+
+/*---------------------------------pic3---------------------*/
+
+.pic4{
+  position: absolute;
+  width: 220px;
+  height: 275px;
+  top: 237px;
+  left: 1268px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.pic4:hover{
+    width: 240px;
+    height: 295px;
+    top: 227px;
+    left: 1256px;
+    border: 6px solid rgb(231, 231, 231);
+    border-radius: 10px;
+  
+}
+
+/*---------------------------------pic4---------------------*/
+
+.pic5{
+  position: absolute;
+  width: 224px;
+  height: 275px;
+  top: 686px;
+  left: 394px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.pic5:hover{
+  width: 237px;
+  height: 300px;
+  top: 672px;
+  left: 388px;
+  border: 6px solid rgb(231, 231, 231);
+  border-radius: 10px;
+}
+
+/*---------------------------------pic6---------------------*/
+
+.pic6{
+  position: absolute;
+  width: 224px;
+  height: 276px;
+  top: 686px;
+  left: 684px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.pic6:hover{
+  width: 237px;
+  height: 301px;
+  top: 672px;
+  left: 677px;
+  border: 6px solid rgb(231, 231, 231);
+  border-radius: 10px;
+}
+
+
+/*---------------------------------pic7---------------------*/
+.pic7{
+  position: absolute;
+  width: 224px;
+  height: 276px;
+  top: 686px;
+  left: 976px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.pic7:hover{
+  width: 237px;
+  height: 301px;
+  top: 672px;
+  left: 970px;
+  border: 6px solid rgb(231, 231, 231);
+  border-radius: 10px;
+}
+
+/*---------------------------------pic7---------------------*/
+.pic8{
+  position: absolute;
+  width: 223px;
+  height: 276px;
+  top: 686px;
+  left: 1266px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.pic8:hover{
+  width: 236px;
+  height: 301px;
+  top: 672px;
+  left: 1260px;
+  border: 6px solid rgb(231, 231, 231);
+  border-radius: 10px;
+}
+
+
+.video-1{
+  position: absolute;
+
+  right: 0;
+ bottom: -107%;
+
+display: none;
+
+  z-index: -1;
+}
+
+@media(min-aspect-ratio: 16/9){
+  .video-1{
+    width: 100%;
+    height: auto;
+  }
+  
+}
+
+@media(max-aspect-ratio: 16/9){
+  .video-1{
+    width: auto;
+    height: 100%;
+  }
+  
+}
+
+.pricelist{
+  position: absolute;
+  top: 538px;
+  left: 395px;
+}
+
+
+.price-1{
+font-size: 15px;
+}
+
+/*----------------------------------pricelist 1---------------*/
+.pricelist1{
+  position: absolute;
+  top: 538px;
+  left: 684px;
+}
+
+.price-2{
+  font-size: 15px;
+}
+
+/*----------------------------------pricelist 2---------------*/
+
+.pricelist2{
+  position: absolute;
+  top: 538px;
+  left: 980px;
+ 
+}
+
+.price-3{
+  font-size: 15px;
+}
+
+.fire{
+  color: red;
+}
+
+/*----------------------------------pricelist 3---------------*/
+
+.pricelist3{
+  position: absolute;
+  top: 538px;
+  left: 1268px;
+
+}
+
+.price-4{
+  font-size: 15px;
+}
+
+
+/*----------------------------------pricelist 4---------------*/
+
+.pricelist5{
+  position: absolute;
+  top: 638px;
+  left: 684px;
+}
+
+.price-5{
+  font-size: 15px;
+}
+
+
+/*----------------------------------pricelist 5---------------*/
+
+.pricelist6{
+  position: absolute;
+  top: 638px;
+  left: 395px;
+}
+
+.price-6{
+  font-size: 15px;
+}
+
+/*----------------------------------pricelist 7---------------*/
+
+.pricelist7{
+  position: absolute;
+  top: 638px;
+  left: 976px;
+}
+
+.price-7{
+  font-size: 15px;
+}
+
+.pricelist8{
+  position: absolute;
+  top: 638px;
+  left: 1266px;
+}
+
+.price-8{
+  font-size: 15px;
+}
+
+
+/*--------------------------Agricalture--------------*/
+
+.prodcuts{
+margin: auto;
+text-align: center;
+color: white;
+margin-top: 3%;
+margin-bottom: 100px;
+background-image: url(3.Agriculture-instruments/pressur\ CLEANER22.jpg);
+padding: 200px;
+background-position: center;
+background-size: cover;
+
+}
+
+
+
+
+
+
+
+.pressure1{
+  position: absolute;
+  top: 1624px;
+  left: 1266px;
+  width: 225px;
+
+}
+
+.pric44{
+  font-size: 15px;
+  display: none;
+}
+
+.pressure2{
+  width: 225px;
+  position: absolute;
+  top: 1624px;
+  left: 976px;
+}
+
+
+.pressure3{
+  width: 225px;
+  position: absolute;
+  top: 1624px;
+  left: 395px;
+}
+
+
+
+.pressure4{
+  width: 225px;
+  position: absolute;
+  top: 1624px;
+  left: 684px;
+}
+
+
+.blackbacks{
+  background: black;
+  width: 100%;
+  height: 70vh;
+  z-index: -1;
+  position: absolute;
+  bottom: -103%;
+  right: 0;
+}
+
+
+.cleaner9{
+  width: 225px;
+  position: absolute;
+  top: 1550px;
+  left: 395px;
+  color: white;
+  font-size: 6px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.clan{
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+/*--------------------------------hover---------------------cleaner9*/
+
+.cleaner9:hover{
+color:mediumspringgreen;
+}
+
+
+.cleaner10{
+  width: 225px;
+  position: absolute;
+  top: 1550px;
+  left: 684px;
+  color: white;
+  font-size: 6px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.clan{
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+
+.cleaner10:hover{
+  color:mediumspringgreen;
+}
+
+/*--------------------------------hover---------------------cleaner10*/
+
+
+.cleaner11{
+  width: 225px;
+  position: absolute;
+  top: 1550px;
+  left: 976px;
+  color: white;
+  font-size: 6px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.clan{
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.cleaner11:hover{
+  color:mediumspringgreen;
+}
+
+/*--------------------------------hover---------------------cleaner11*/
+
+
+.cleaner12{
+  position: absolute;
+  top: 1550px;
+  left: 1266px;
+  width: 225px;
+  color: white;
+  font-size: 6px;
+  cursor: pointer;
+
+}
+
+.clan{
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.cleaner12:hover{
+  color:mediumspringgreen;
+}
+
+
+.pricelist45{
+  position: absolute;
+  top: 1040px;
+  left: 800px;
+  
+  
+
+
+}
+
+
+.price-45{
+  font-size: 50px;
+text-align: center;
+  
+}
+
+
+.pricelist46{
+  position: absolute;
+  top: 92px;
+  left: 730px;
+}
+
+.price-46{
+  font-size: 50px;
+  text-align: center;
+  color: black;
+    
+}
+  
+
+/*------------------------------PRODUCTPRICES aircone*/
+
+.header1{
+  width: 100%;
+  height: 100vh;
+  
+  background: transparent;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+
+.gallery-open{
+ width: 20px;
+ height: 20px;
+}
+
+.house{
+  width: 50px;
+  position: absolute;
+  padding: 10px;
+  left: 170px;
+  top: 350px;
+  transition: 0.5s;
+  border: 1px solid gray;
+  background: transparent;
+}
+
+
+
+.sub-home{
+  display: none;
+}
+
+.homi{
+  width: 100px;
+  position: absolute;
+  padding: 1px;
+  left: 230px;
+  top: 357px;
+  color: white;
+  padding: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.active, .homi:hover{
+  color:  rgb(81, 81, 81);
+  background:  rgba(0, 255, 191, 0.26);
+}
+
+.house:hover{
+  border: 1px solid rgb(99, 99, 99);
+}
+
+.home-nav ul li:hover .sub-home{
+  display: block;
+}
+
+
+.active{
+  background: rgba(81, 81, 81, 0.212);
+}
+
+
+.click{
+position: absolute;
+width: 220px;
+height: 275px;
+top: 358px;
+left: 460px;
+color: white;
+z-index: 5;
+transition: 0.5s;
+cursor: pointer;
+}
+
+.click:hover{
+  color: mediumspringgreen;
+}
+
+
+
+.pic101{
+position: absolute;
+width: 220px;
+height: 275px;
+top: 238px;
+left: 395px;
+transition: 0.5s;
+cursor: pointer;
+}
+
+
+.pic101:hover{
+  
+  width: 240px;
+  height: 295px;
+  top: 228px;
+  left: 385px;
+  border: 6px solid rgb(231, 231, 231);
+  border-radius: 10px;
+ 
+  }
+  
+
+
+/*---------------------------------pic2---------------------*/
+
+
+.pic102{
+  position: absolute;
+  width: 220px;
+  height: 275px;
+  top: 238px;
+  left: 684px;
+  transition: 0.5;
+  cursor: pointer;
+}
+
+.pic102:hover{
+  position: absolute;
+  width: 240px;
+  height: 295px;
+  top: 228px;
+  left: 674px; 
+  border: 6px solid rgb(231, 231, 231);
+  border-radius: 10px;
+}
+
+/*---------------------------------pic2---------------------*/
+
+.pic103{
+  position: absolute;
+  width: 220px;
+  height: 275px;
+  top: 237px;
+  left: 980px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.pic103:hover{
+width: 240px;
+height: 295px;
+top: 227px;
+left: 970px;
+border: 6px solid rgb(231, 231, 231);
+border-radius: 10px;
+}
+
+/*---------------------------------pic3---------------------*/
+
+.pic104{
+  position: absolute;
+  width: 220px;
+  height: 275px;
+  top: 237px;
+  left: 1268px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.pic104:hover{
+    width: 240px;
+    height: 295px;
+    top: 227px;
+    left: 1256px;
+    border: 6px solid rgb(231, 231, 231);
+    border-radius: 10px;
+  
+}
+
+/*---------------------------------pic4---------------------*/
+
+.pic105{
+  position: absolute;
+  width: 224px;
+  height: 275px;
+  top: 686px;
+  left: 394px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.pic105:hover{
+  width: 237px;
+  height: 300px;
+  top: 672px;
+  left: 388px;
+  border: 6px solid rgb(231, 231, 231);
+  border-radius: 10px;
+}
+
+/*---------------------------------pic6---------------------*/
+
+.pic106{
+  position: absolute;
+  width: 224px;
+  height: 276px;
+  top: 686px;
+  left: 684px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.pic106:hover{
+  width: 237px;
+  height: 301px;
+  top: 672px;
+  left: 677px;
+  border: 6px solid rgb(231, 231, 231);
+  border-radius: 10px;
+}
+
+
+/*---------------------------------pic7---------------------*/
+.pic107{
+  position: absolute;
+  width: 224px;
+  height: 276px;
+  top: 686px;
+  left: 976px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.pic107:hover{
+  width: 237px;
+  height: 301px;
+  top: 672px;
+  left: 970px;
+  border: 6px solid rgb(231, 231, 231);
+  border-radius: 10px;
+}
+
+/*---------------------------------pic7---------------------*/
+.pic108{
+  position: absolute;
+  width: 223px;
+  height: 276px;
+  top: 686px;
+  left: 1266px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.pic108:hover{
+  width: 236px;
+  height: 301px;
+  top: 672px;
+  left: 1260px;
+  border: 6px solid rgb(231, 231, 231);
+  border-radius: 10px;
+}
+
+
+.video-1{
+  position: absolute;
+
+  right: 0;
+ bottom: -107%;
+
+display: none;
+
+  z-index: -1;
+}
+
+@media(min-aspect-ratio: 16/9){
+  .video-1{
+    width: 100%;
+    height: auto;
+  }
+  
+}
+
+@media(max-aspect-ratio: 16/9){
+  .video-1{
+    width: auto;
+    height: 100%;
+  }
+  
+}
+
+.pricelist{
+  position: absolute;
+  top: 538px;
+  left: 395px;
+}
+
+
+.price-1{
+font-size: 15px;
+}
+
+/*----------------------------------pricelist 1---------------*/
+.pricelist1{
+  position: absolute;
+  top: 538px;
+  left: 684px;
+}
+
+.price-2{
+  font-size: 15px;
+}
+
+/*----------------------------------pricelist 2---------------*/
+
+.pricelist2{
+  position: absolute;
+  top: 538px;
+  left: 980px;
+ 
+}
+
+.price-3{
+  font-size: 15px;
+}
+
+.fire{
+  color: red;
+}
+
+/*----------------------------------pricelist 3---------------*/
+
+.pricelist3{
+  position: absolute;
+  top: 538px;
+  left: 1268px;
+
+}
+
+.price-4{
+  font-size: 15px;
+}
+
+
+/*----------------------------------pricelist 4---------------*/
+
+.pricelist5{
+  position: absolute;
+  top: 638px;
+  left: 684px;
+}
+
+.price-5{
+  font-size: 15px;
+}
+
+
+/*----------------------------------pricelist 5---------------*/
+
+.pricelist6{
+  position: absolute;
+  top: 638px;
+  left: 395px;
+}
+
+.price-6{
+  font-size: 15px;
+}
+
+/*----------------------------------pricelist 7---------------*/
+
+.pricelist7{
+  position: absolute;
+  top: 638px;
+  left: 976px;
+}
+
+.price-7{
+  font-size: 15px;
+}
+
+.pricelist8{
+  position: absolute;
+  top: 638px;
+  left: 1266px;
+}
+
+.price-8{
+  font-size: 15px;
+}
+
+
+/*--------------------------Agricalture--------------*/
+
+.prodcuts{
+margin: auto;
+text-align: center;
+color: white;
+margin-top: 3%;
+margin-bottom: 100px;
+background-image: url(3.Agriculture-instruments/pressur\ CLEANER22.jpg);
+padding: 200px;
+background-position: center;
+background-size: cover;
+
+}
+
+
+
+
+
+
+
+.pressure1{
+  position: absolute;
+  top: 1624px;
+  left: 1266px;
+  width: 225px;
+
+}
+
+.pric44{
+  font-size: 15px;
+  display: none;
+}
+
+.pressure2{
+  width: 225px;
+  position: absolute;
+  top: 1624px;
+  left: 976px;
+}
+
+
+.pressure3{
+  width: 225px;
+  position: absolute;
+  top: 1624px;
+  left: 395px;
+}
+
+
+
+.pressure4{
+  width: 225px;
+  position: absolute;
+  top: 1624px;
+  left: 684px;
+}
+
+
+.blackbacks{
+  background: black;
+  width: 100%;
+  height: 70vh;
+  z-index: -1;
+  position: absolute;
+  bottom: -103%;
+  right: 0;
+}
+
+
+.cleaner9{
+  width: 225px;
+  position: absolute;
+  top: 1550px;
+  left: 395px;
+  color: white;
+  font-size: 6px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.clan{
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+/*--------------------------------hover---------------------cleaner9*/
+
+.cleaner9:hover{
+color:mediumspringgreen;
+}
+
+
+.cleaner10{
+  width: 225px;
+  position: absolute;
+  top: 1550px;
+  left: 684px;
+  color: white;
+  font-size: 6px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.clan{
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+
+.cleaner10:hover{
+  color:mediumspringgreen;
+}
+
+/*--------------------------------hover---------------------cleaner10*/
+
+
+.cleaner11{
+  width: 225px;
+  position: absolute;
+  top: 1550px;
+  left: 976px;
+  color: white;
+  font-size: 6px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.clan{
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.cleaner11:hover{
+  color:mediumspringgreen;
+}
+
+/*--------------------------------hover---------------------cleaner11*/
+
+
+.cleaner12{
+  position: absolute;
+  top: 1550px;
+  left: 1266px;
+  width: 225px;
+  color: white;
+  font-size: 6px;
+  cursor: pointer;
+
+}
+
+.clan{
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.cleaner12:hover{
+  color:mediumspringgreen;
+}
+
+
+.pricelist45{
+  position: absolute;
+  top: 1040px;
+  left: 800px;
+  
+  
+
+
+}
+
+
+.price-45{
+  font-size: 50px;
+text-align: center;
+  
+}
+
+.pricelist47{
+  position: absolute;
+  top: 92px;
+  left: 730px;
+}
+
+
+.price-47{
+  font-size: 50px;
+  text-align: center;
+  color: black;
+    
+}
+  
+.aircon-conatine{
+  position: absolute;
+  bottom: -212%;
+}
+
+
+
+.pricelist50{
+  position: absolute;
+  bottom: -123%;
+  left: 685px;
+}
+
+.price-50{
+  font-size: 50px;
+  text-align: center;
+  color: black;
+}
